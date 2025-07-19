@@ -51,7 +51,7 @@
 # }
 
 
-# resource "local_file" "name" {
-#   filename = "testing"
-#   content = "this is my test content"
-# }
+resource "local_file" "name" {
+  filename = "testing"
+  content = "this is my test content"
+}
